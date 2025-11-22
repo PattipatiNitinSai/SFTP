@@ -2,9 +2,6 @@
 # that supports Python 3.13 and modern Pillow wheels
 streamlit>=1.24.0
 cryptography
-# Use a Pillow release with prebuilt manylinux wheels for Python 3.13
-# Pining to a modern stable release prevents building from source on Streamlit Cloud.
-pillow==12.0.0
 paramiko
 pyopenssl
 six
