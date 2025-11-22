@@ -1,0 +1,4 @@
+[server]
+headless = true
+# Streamlit Cloud will set port; explicit port not required here.
+enableCORS = false
